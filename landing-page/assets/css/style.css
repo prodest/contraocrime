@@ -573,7 +573,8 @@ label {
 	==================================================*/ 
 #newsletter {
 	text-align: center;
-	
+	background-color: rgba(248,178,82,.8);
+	color: #fff;
 }
 #newsletter .overview p.lead {
 	margin: 30px 10%;
@@ -584,6 +585,19 @@ label {
 	margin: 0 25%;
 }
 
+/*	Apoio
+	==================================================*/ 
+#apoio {
+	text-align: center;
+}
+#apoio .overview p.lead {
+	margin: 30px 10%;
+	margin-bottom: 40px;
+}
+#apoio form {
+	width: 50%;
+	margin: 0 25%;
+}
 /*	Responsive
 	==================================================*/ 
 
@@ -712,4 +726,9 @@ label {
 div.teamBloco {
 	background-color: black;
 	opacity: 0.7;
+}
+@media(min-width: 768px){
+	.padMid {
+		padding-top: 15%;
+	}
 }
