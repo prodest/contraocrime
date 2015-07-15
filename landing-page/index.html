@@ -47,7 +47,7 @@
 	<!-- Start Header
 	================================================== -->
 	<header id="header" class="navbar navbar-inverse navbar-fixed-top" role="banner">
-	  <div class="container">
+	  <div class="container" style="width: 100%">
 	    <div class="navbar-header">
 	      <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
 	        <span class="sr-only">Toggle navigation</span>
@@ -56,10 +56,10 @@
 	        <span class="icon-bar"></span>
 	      </button>
 	      <!-- Your Logo -->
-	      <a style="padding: 20px 15px;" href="../" class="navbar-brand text-center">Testemunha<br/><strong style="">OCULAR</strong></a>
+	      <a href="../" class="pull-left" style="padding-left: 10%"><img src="assets/images/LOGO%20TESTEMUNHA%20OCULAR%202.png" width="175px" style="padding-top: 3%"></a>
 	    </div	>
 	    <!-- Start Navigation -->
-	    <nav class="collapse navbar-collapse bs-navbar-collapse navbar-right" role="navigation">
+	    <nav class="collapse navbar-collapse bs-navbar-collapse navbar-right" role="navigation" style="padding-right: 3%">
 	      <ul class="nav navbar-nav">
 	        <li>
 	          <a href="#hero">Home</a>
@@ -71,7 +71,7 @@
 	          <a href="#image">Vantagens</a>
 	        </li>
 	        <li>
-	          <a href="#gallery">Interface</a>
+	          <a href="#gallery">Sobre</a>
 	        </li>
 	        <!--<li>
 	          <a href="#faq">FAQ</a>
@@ -85,7 +85,7 @@
 	      </ul>
 	      <ul class="nav navbar-nav navbar-right header-button">
 	        <li>
-	          <button type="button" onclick="$('#btnBaixar').click()" class="btn btn-primary">Quero Usar!</button>
+	          <button type="button" onclick="$('#btnBaixar').click()" class="btn btn btn-danger">Baixar agora!</button>
 	        </li>
 	      </ul>
 	    </nav>
@@ -97,18 +97,16 @@
 	<!-- Start Hero Section
 	================================================== -->
 	<section id="hero" class="section">
-		<div class="container">
-			<div class="row" style="display: flex; align-items: center;">
-				<div class="col-md-5"><br/>
-					<!--<img class="image-responsive animate" data-animate="fadeIn" src="assets/images/top1.jpg" width="100%" height="100%">-->
-				</div>
-				<div class="col-md-7">
+		<div class="container" style="height: 100%">
+			<div class="row" style="display: flex; align-items: center;" style="height: 100%">
+				<div class="col-md-4"></div>
+				<div class="col-md-8" style="height: 100%">
 					<div class="lp-element animate" data-animate="fadeInDown" style="color: #fff">
 						<h1>Registre um crime em poucos cliques</h1>
-						<p class="lead">O Testemunha Ocular é um serviço que facilita o registro de denúncias de delitos em andamento de maneira ágil e dinâmica!</p>
-						<p>
-							<a href="#" onclick="$('#btnBaixar').click()" role="navigation" class="btn btn-primary btn-lg" role="button">Quero Usar!</a>
-							<a href="#" onclick="$('#btnCOnheca').click()" role="navigation" class="btn btn-danger btn-lg" role="button">Saiba Mais!</a>
+						<p class="lead" >O Testemunha Ocular é um serviço que facilita o registro de denúncias de delitos em andamento de maneira ágil e dinâmica!</p>
+						<p class="text-center">
+							<a href="#" onclick="$('#btnBaixar').click()" role="navigation" class="btn btn-primary btn-danger btn-lg" role="button">Baixar agora!</a>
+							<a href="#" onclick="$('#btnCOnheca').click()" role="navigation" class="btn btn-primary btn-lg" role="button">Saiba Mais!</a>
 						</p>
 					</div>
 				</div>
@@ -130,7 +128,7 @@
 					</div>
 					<div class="overview animate col-md-12 col-sm-12 col-xs-12 text-center" data-animate="flipInX">
 						<div class="col-md-8 col-md-offset-2">
-							<img class="image-responsive animate" data-animate="fadeIn" src="assets/images/conheca.jpg" width="100%" height="100%">
+							<img class="image-responsive animate" data-animate="fadeIn" src="assets/images/conhe%C3%A7a.jpg" width="100%" height="100%">
 						</div>
 						
 					</div>
@@ -145,7 +143,7 @@
 
 	<!-- Start Image Block
 	================================================== -->
-	<section id="image" class="section" style="background-color:#FFF; border-top: 1px solid rgba(0, 0, 0, .1);">
+	<section id="image" class="section" style="border-top: 1px solid rgba(0, 0, 0, .1);">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12">
@@ -158,15 +156,15 @@
 				<div class="row">
 					<div class="col-md-12">
 						<div class="col-md-3 text-center">
-							<span class="glyphicon glyphicon-plane animate" style="font-size: 5em;" data-animate="fadeIn"></span>
+							<img src="assets/images/agilidade.png" class="animate" data-animate="fadeIn" width="80px">
 							<h3>Agilidade</h3>
 							<p>Possibilita o registro de ocorrências de maneira ágil, proporcionando assim, maior possibilidade da polícia civil intervir.</p>
 						</div>
 						<div class="col-md-6 col-md-pull-0 col-xs-pull-12 text-center" style="height: 1px">
-							<img src="assets/images/app1.png" style="padding: 3%" class="animate" data-animate="fadeInDown">
+							<img src="assets/images/cel1.png" style="padding: 3%" class="animate" data-animate="fadeInDown" width="220px">
 						</div>
 						<div class="col-md-3 text-center">
-							<span class="glyphicon glyphicon-comment animate" style="font-size: 5em;" data-animate="fadeIn"></span>
+							<img src="assets/images/intera%C3%A7%C3%A3o.png" class="animate" data-animate="fadeIn" width="80px">
 							<h3>Interação</h3>
 							<p>Proporciona clareza nas informações cedidas pelo cidadão, permitindo interação entre cidadão e polícia.</p>
 						</div>
@@ -175,19 +173,19 @@
 				<div class="row">
 					<div class="col-md-12">
 						<div class="col-md-3 text-center" style="padding-top: 10px">
-							<span class="glyphicon glyphicon-map-marker animate" style="font-size: 5em;" data-animate="fadeIn"></span>
+							<img src="assets/images/visibilidade.png" class="animate" data-animate="fadeIn" width="80px">
 							<h3>Visibilidade</h3>
 							<p>Facilita a visibilidade os resultados a polícia, frente à criminalidade.</p>
 						</div>
 						
 						
 						<div class="col-md-3 text-center col-md-offset-6">
-							<span class="glyphicon glyphicon-dashboard animate" style="font-size: 5em;" data-animate="fadeIn"></span>
+							<img src="assets/images/facilidade.png" class="animate" data-animate="fadeIn" width="80px">
 							<h3>Facilidade</h3>
 							<p>Sistema inteiramente intuitivo, claro e dinâmico para favorecer e agilizar o registro de ocorrências.</p>
 						</div>
 						<div class="col-md-4 text-center col-md-offset-4">
-							<span class="glyphicon glyphicon-envelope animate" style="font-size: 5em;" data-animate="fadeIn"></span>
+							<img src="assets/images/comunica%C3%A7%C3%A3o.png" class="animate" data-animate="fadeIn" width="80px">
 							<h3>Comunicação</h3>
 							<p>Aproxima a polícia do cidadão.</p>
 						</div>
@@ -330,37 +328,69 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12 text-center">
-					<h1 class="animate" data-animate="flipInx">EQUIPE</h1>
-					<p class="lead animate" data-animate="flipInx">Projeto desenvolvido no 1º Evento Hackathon e-Gov ES, nos dias 12 e 13 de junho de 2015 - PRODEST / ES.</p>
+					<h1 class="h1 animate" data-animate="flipInx"><strong>TEAM</strong></h1>
+					<p class="sliderP animate" data-animate="flipInx">Projeto desenvolvido no 1º Evento Hackathon e-Gov ES, nos dias 12 e 13 de junho de 2015 - PRODEST / ES.</p>
 					<div class="col-md-12">
-						<h6 class="animate" data-animate="fadeIn">Capixaba da gema e apaixonados por desafios e inovação!</h6>
+						<h6 class="animate" data-animate="fadeIn" style="font-weight: 500">Capixaba da gema e apaixonados por desafios e inovação!</h6>
 						<div class="col-md-3 col-sm-6 animate" data-animate="fadeInDown">
 							<img class="img-circle" src="https://media.licdn.com/media/p/6/005/009/0ee/1b54933.jpg" width="125px" height="125px">
-							<h4>Eder Ferreira</h4>
-							<strong>Designer</strong><br/>
-							<div class="teamBloco"><a href="mailto:ed_ferreira_br@yahoo.com.br">ed_ferreira_br@yahoo.com.br</a></div>
-							<div class="teamBloco"><a href="https://www.linkedin.com/in/ederfsilva">linkedin.com/in/ederfsilva</a></div>
+							<div class="nameStaffer">
+								<h4>Eder Ferreira</h4>
+							</div>
+							<div class="funcStaffer">
+								<div class="header">
+									<strong>Designer</strong>
+								</div>
+								<div class="content">
+									<a href="mailto:ed_ferreira_br@yahoo.com.br">ed_ferreira_br@yahoo.com.br</a>
+									<a href="https://www.linkedin.com/in/ederfsilva">linkedin.com/in/ederfsilva</a>
+								</div>
+							</div>
 						</div>
 						<div class="col-md-3 col-sm-6 animate" data-animate="fadeInDown">
 							<img class="img-circle" src="https://avatars1.githubusercontent.com/u/2955087?v=3&s=400" width="125px" height="125px">
-							<h4 >Clayton Santos</h4>
-							<strong>Developer</strong><br/>
-							<div class="teamBloco"><a href="mailto:clayton@xdevel.com.br">clayton@xdevel.com.br</a></div>
-							<div class="teamBloco"><a href="http://github.com/claytonsilva">github.com/claytonsilva</a></div>
-						</div>
+							<div class="nameStaffer">
+								<h4 >Clayton Santos</h4>
+							</div>
+							<div class="funcStaffer">
+								<div class="header">
+									<strong>Developer</strong><br/>
+								</div>
+								<div class="content">
+									<a href="mailto:clayton@xdevel.com.br">clayton@xdevel.com.br</a>
+									<a href="http://github.com/claytonsilva">github.com/claytonsilva</a>
+								</div>
+							</div>
+						</div	>
 						<div class="col-md-3 col-sm-6 animate" data-animate="fadeInDown">
 							<img class="img-circle" src="https://avatars2.githubusercontent.com/u/9597125?v=3&u=193e226e591f6ecc3d22d9ee2929e4623ce6078f&s=140" width="125px" height="125px">
-							<h4 >David Vilaça</h4>
-							<strong>Developer</strong><br/>
-							<div class="teamBloco"><a href="mailto:david@xdevel.com.br">david@xdevel.com.br</a></div>
-							<div class="teamBloco"><a href="http://github.com/davidpvilaca">github.com/davidpvilaca</a></div>
+							<div class="nameStaffer">
+								<h4 >David Vilaça</h4>
+							</div>
+							<div class="funcStaffer">
+								<div class="header">
+									<strong>Developer</strong><br/>
+								</div>
+								<div class="content">
+									<a href="mailto:david@xdevel.com.br">david@xdevel.com.br</a>
+									<a href="http://github.com/davidpvilaca">github.com/davidpvilaca</a>
+								</div>
+							</div>
 						</div>
 						<div class="col-md-3 col-sm-6 animate" data-animate="fadeInDown">
 							<img class="img-circle" src="https://avatars0.githubusercontent.com/u/10091295?v=3&s=400" width="125px" height="125px">
-							<h4 >Douglas Bolis</h4>
-							<strong>Developer</strong><br/>
-							<div class="teamBloco"><a href="mailto:douglas@xdevel.com.br">douglas@xdevel.com.br</a></div>
-							<div class="teamBloco"><a href="http://github.com/douglasbolis">github.com/douglasbolis</a></div>
+							<div class="nameStaffer">
+								<h4 >Douglas Bolis</h4>
+							</div>
+							<div class="funcStaffer">
+								<div class="header">
+									<strong>Developer</strong><br/>
+								</div>
+								<div class="content">
+									<a href="mailto:douglas@xdevel.com.br">douglas@xdevel.com.br</a>
+									<a href="http://github.com/douglasbolis">github.com/douglasbolis</a>
+								</div>
+							</div>
 						</div>
 					</div>
 				</div>
