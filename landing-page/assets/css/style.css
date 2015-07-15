@@ -1,9 +1,45 @@
 html , body {
 	height: 100%;
 }
+@font-face{
+	font-family: "MYRIADPRO-BOLD";
+	src: url("../fonts/MYRIADPRO-BOLD.OTF") format("truetype");
+}
+@font-face{
+	font-family: "MYRIADPRO-BOLDCOND";
+	src: url("../fonts/MYRIADPRO-BOLDCOND.OTF") format("truetype");
+}
+@font-face{
+	font-family: "MYRIADPRO-BOLDCONDIT";
+	src: url("../fonts/MYRIADPRO-BOLDCONDIT.OTF") format("truetype");
+}
+@font-face{
+	font-family: "MYRIADPRO-BOLDIT";
+	src: url("../fonts/MYRIADPRO-BOLDIT.OTF") format("truetype");
+}
+@font-face{
+	font-family: "MYRIADPRO-COND";
+	src: url("../fonts/MYRIADPRO-COND.OTF") format("truetype");
+}
+@font-face{
+	font-family: "MYRIADPRO-CONDIT";
+	src: url("../fonts/MYRIADPRO-CONDIT.OTF") format("truetype");
+}
+@font-face{
+	font-family: "MYRIADPRO-REGULAR";
+	src: url("../fonts/MYRIADPRO-REGULAR.OTF") format("truetype");
+}
+@font-face{
+	font-family: "MYRIADPRO-SEMIBOLD";
+	src: url("../fonts/MYRIADPRO-SEMIBOLD.OTF") format("truetype");
+}
+@font-face{
+	font-family: "MYRIADPRO-SEMIBOLDIT";
+	src: url("../fonts/MYRIADPRO-SEMIBOLDIT.OTF") format("truetype");
+}
 body {
 	color: #2c3e50;
-	font: normal 16px "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font: normal 16px "MYRIADPRO-REGULAR","Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-weight: 300;
 	background-color: #fff;
 	overflow-x: hidden;
@@ -27,7 +63,7 @@ a:hover, a:focus {
 }
 
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
-	font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-family: "MYRIADPRO-REGULAR","Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-weight: 400;
 	margin-bottom: 15px;
 	margin-top: 0;
