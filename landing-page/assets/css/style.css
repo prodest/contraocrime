@@ -1,9 +1,45 @@
 html , body {
 	height: 100%;
 }
+@font-face{
+	font-family: "MYRIADPRO-BOLD";
+	src: url("../fonts/MYRIADPRO-BOLD.OTF") format("truetype");
+}
+@font-face{
+	font-family: "MYRIADPRO-BOLDCOND";
+	src: url("../fonts/MYRIADPRO-BOLDCOND.OTF") format("truetype");
+}
+@font-face{
+	font-family: "MYRIADPRO-BOLDCONDIT";
+	src: url("../fonts/MYRIADPRO-BOLDCONDIT.OTF") format("truetype");
+}
+@font-face{
+	font-family: "MYRIADPRO-BOLDIT";
+	src: url("../fonts/MYRIADPRO-BOLDIT.OTF") format("truetype");
+}
+@font-face{
+	font-family: "MYRIADPRO-COND";
+	src: url("../fonts/MYRIADPRO-COND.OTF") format("truetype");
+}
+@font-face{
+	font-family: "MYRIADPRO-CONDIT";
+	src: url("../fonts/MYRIADPRO-CONDIT.OTF") format("truetype");
+}
+@font-face{
+	font-family: "MYRIADPRO-REGULAR";
+	src: url("../fonts/MYRIADPRO-REGULAR.OTF") format("truetype");
+}
+@font-face{
+	font-family: "MYRIADPRO-SEMIBOLD";
+	src: url("../fonts/MYRIADPRO-SEMIBOLD.OTF") format("truetype");
+}
+@font-face{
+	font-family: "MYRIADPRO-SEMIBOLDIT";
+	src: url("../fonts/MYRIADPRO-SEMIBOLDIT.OTF") format("truetype");
+}
 body {
 	color: #2c3e50;
-	font: normal 16px "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font: normal 16px "MYRIADPRO-REGULAR","Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-weight: 300;
 	background-color: #fff;
 	overflow-x: hidden;
@@ -27,7 +63,7 @@ a:hover, a:focus {
 }
 
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
-	font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-family: "MYRIADPRO-REGULAR","Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-weight: 400;
 	margin-bottom: 15px;
 	margin-top: 0;
@@ -365,7 +401,7 @@ label {
   width: 100%;
   top: 1;
   position: fixed;
-  background: linear-gradient(to right, rgba(9,32,40,0),rgba(9,32,40,0.6),rgba(9,32,40,0.8),rgba(9,32,40,1)), url('../images/top1.jpg');
+  background: linear-gradient(110deg, rgba(9,32,40,0),rgba(9,32,40,0.4),rgba(9,32,40,0.6),rgba(9,32,40,1),rgba(9,32,40,1),rgba(9,32,40,1)), url('../images/celular.jpg') -35vh 0;
   /*background: url('../images/top1.jpg') center center no-repeat; */
   background-size: cover;
   z-index: -100;x	
@@ -402,7 +438,9 @@ label {
 .navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:hover, .navbar-inverse .navbar-nav>.active>a:focus {
 	background-color: transparent;
 	background-color: rgba(255, 255, 255, 0);
-	color: #000;
+	text-decoration: underline;
+	text-decoration-style: wavy;
+    text-decoration-color: red;
 }
 .header-button {
 	margin-left: 15px;
@@ -455,7 +493,7 @@ label {
 /*	Image
 	==================================================*/
 #image {
-	background-color: #ecf0f1;
+	background-color: #F0F5F9;
 }
 
 /*	Gallery
@@ -488,7 +526,7 @@ label {
 	==================================================*/ 
 #slider {
 	background-color: #ecf0f1;
-	background-image: url('../images/capixaba.jpg');
+	background-image: url('../images/Foto%20Baixo%20com%20Transparencia%20menor%20capixaba.jpg');
 }
 
 .carousel-control.left, .carousel-control.right {
@@ -731,4 +769,19 @@ div.teamBloco {
 	.padMid {
 		padding-top: 15%;
 	}
+}
+.nameStaffer {
+	background-color: #1C3145;
+	color: #FEFEFE!important;
+}
+.nameStaffer > h4 {
+	padding: 2%;
+}
+.funcStaffer > .header {
+	background-color: #1C3145;
+	color: #FEFEFE!important;
+}
+.funcStaffer > .content {
+	background-color: rgba(41,57,74,.9);
+	color: #FEFEFE!important;
 }
