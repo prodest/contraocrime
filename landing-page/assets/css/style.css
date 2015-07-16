@@ -50,7 +50,7 @@ a {
 	color: #3498db;
 	cursor: pointer;
 	text-decoration: none;
-	
+
 	-moz-transition: all .2s;
 	-o-transition: all .2s;
 	-webkit-transition: all .2s;
@@ -143,11 +143,11 @@ pre {
 }
 .btn, .label {
 	font-weight: 300;
-	
+
 	border-radius: 2px;
 	-moz-border-radius: 2px;
 	-webkit-border-radius: 2px;
-	
+
 	-moz-transition: all .2s;
 	-o-transition: all .2s;
 	-webkit-transition: all .2s;
@@ -208,8 +208,8 @@ pre {
 	border-color: #e74c3c;
 }
 .btn-danger:hover, .btn-danger:focus {
-	background-color: #c0392b; 
-	border-color: #c0392b; 
+	background-color: #c0392b;
+	border-color: #c0392b;
 }
 /*	Tab & Collapse Skin
 	==================================================*/
@@ -298,11 +298,11 @@ label {
 	font-weight: 300;
 	border-color: #ecf0f1;
 	background-color: #ecf0f1;
-	
+
 	box-shadow: none;
 	-webkit-box-shadow: none;
 	-moz-box-shadow: none;
-	
+
 	-moz-transition: all .2s;
 	-o-transition: all .2s;
 	-webkit-transition: all .2s;
@@ -317,7 +317,7 @@ label {
 	outline: none;
 	border-color: #ecf0f1;
 	background-color: #FFF;
-	
+
 	box-shadow: none;
 	-webkit-box-shadow: none;
 	-moz-box-shadow: none;
@@ -345,7 +345,7 @@ label {
 	border-color: #2ecc71;
 	background-color: #FFF;
 	color: #2ecc71;
-	
+
 	box-shadow: none;
 	-webkit-box-shadow: none;
 	-moz-box-shadow: none;
@@ -361,7 +361,7 @@ label {
 	background-color: #FFF;
 	border-color: #e67e22;
 	color: #e67e22;
-	
+
 	box-shadow: none;
 	-webkit-box-shadow: none;
 	-moz-box-shadow: none;
@@ -377,7 +377,7 @@ label {
 	background-color: #FFF;
 	border-color: #e74c3c;
 	color: #e74c3c;
-	
+
 	box-shadow: none;
 	-webkit-box-shadow: none;
 	-moz-box-shadow: none;
@@ -404,7 +404,7 @@ label {
   background: linear-gradient(110deg, rgba(9,32,40,0),rgba(9,32,40,0.4),rgba(9,32,40,0.6),rgba(9,32,40,1),rgba(9,32,40,1),rgba(9,32,40,1)), url('../images/celular.jpg') -35vh 0;
   /*background: url('../images/top1.jpg') center center no-repeat; */
   background-size: cover;
-  z-index: -100;x	
+  z-index: -100;x
 }
 
 /*	Navbar
@@ -419,7 +419,7 @@ label {
 }
 .navbar-inverse {
 	background-color: rgba(255, 255, 255, .9);
-	
+
 	border: none;
 }
 .navbar-right button {
@@ -459,14 +459,14 @@ label {
 }
 #hero h1 {
 	font-size: 60px;
-	
+
 }
 #hero p.lead {
 	font-size: 1.8em;
 }
 
 /*	Features
-	==================================================*/ 
+	==================================================*/
 #features {
 	background-color: #FFF;
 }
@@ -495,7 +495,7 @@ label {
 }
 
 /*	Gallery
-	==================================================*/ 
+	==================================================*/
 #gallery {
 	background-color: #34495e;
 	color: #FFF;
@@ -515,16 +515,16 @@ label {
 
 
 /*	Newsletter
-	==================================================*/ 
+	==================================================*/
 .faq-block {
 	margin: 0 80px;
 }
 
 /*	Slider
-	==================================================*/ 
+	==================================================*/
 #slider {
 	background-color: #ecf0f1;
-	background-image: url('../images/Foto%20Baixo%20com%20Transparencia%20menor%20capixaba.jpg');
+	background-image: url('../images/foto_bg_transparencia.jpg');
 }
 
 .carousel-control.left, .carousel-control.right {
@@ -547,7 +547,7 @@ label {
 	-webkit-border-radius: 10px;
 	-moz-border-radius: 10px;
 	margin: 0 2px;
-	
+
 	-moz-transition: all .2s;
 	-o-transition: all .2s;
 	-webkit-transition: all .2s;
@@ -596,17 +596,17 @@ label {
 	position: absolute;
 	top: 50%;
 	margin-top: 0px;
-	
+
 	border-radius: 20px;
 	-webkit-border-radius: 20px;
 	-moz-border-radius: 20px;
-	
+
 	height: 40px;
 	width: 40px;
 }
 
 /*	Newsletter
-	==================================================*/ 
+	==================================================*/
 #newsletter {
 	text-align: center;
 	background-color: rgba(248,178,82,.8);
@@ -622,7 +622,7 @@ label {
 }
 
 /*	Apoio
-	==================================================*/ 
+	==================================================*/
 #apoio {
 	text-align: center;
 }
@@ -635,7 +635,7 @@ label {
 	margin: 0 25%;
 }
 /*	Responsive
-	==================================================*/ 
+	==================================================*/
 
 @media (max-width: 991px) {
 	.service-block  {
@@ -733,7 +733,7 @@ label {
 	.faq-block {
 		margin: 0 40px;
 	}
-	
+
 
 }
 @media (max-width: 490px) {
